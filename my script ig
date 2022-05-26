@@ -1,0 +1,89 @@
+
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('Welcome', 'Loading..', 5)
+NotifyLib.prompt('riley#9999', '<3', 5)
+NotifyLib.prompt('ADRIEN IS MINE', '<3', 5)
+    
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local rayx = Instance.new("TextButton")
+local arctic = Instance.new("TextButton")
+local infiniteyield = Instance.new("TextButton")
+local silentaim = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+main.Position = UDim2.new(0.645526171, 0, 0.103903465, 0)
+main.Size = UDim2.new(0, 606, 0, 335)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+label.BorderColor3 = Color3.fromRGB(153, 37, 255)
+label.BorderSizePixel = 3
+label.Size = UDim2.new(0, 606, 0, 60)
+label.Font = Enum.Font.GothamBold
+label.Text = "SCRIPT GUI v1"
+label.TextColor3 = Color3.fromRGB(153, 37, 255)
+label.TextSize = 50.000
+
+rayx.Name = "rayx"
+rayx.Parent = main
+rayx.BackgroundColor3 = Color3.fromRGB(153, 37, 255)
+rayx.Position = UDim2.new(0.0297029708, 0, 0.26268658, 0)
+rayx.Size = UDim2.new(0, 283, 0, 50)
+rayx.Font = Enum.Font.GothamBold
+rayx.Text = "RAYX"
+rayx.TextColor3 = Color3.fromRGB(0, 0, 0)
+rayx.TextSize = 40.000
+rayx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+arctic.Name = "arctic"
+arctic.Parent = main
+arctic.BackgroundColor3 = Color3.fromRGB(153, 37, 255)
+arctic.Position = UDim2.new(0.0297029708, 0, 0.51940304, 0)
+arctic.Size = UDim2.new(0, 283, 0, 50)
+arctic.Font = Enum.Font.GothamBold
+arctic.Text = "ARCTIC"
+arctic.TextColor3 = Color3.fromRGB(0, 0, 0)
+arctic.TextSize = 40.000
+arctic.MouseButton1Down:connect (function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+infiniteyield.Name = "infinite yield"
+infiniteyield.Parent = main
+infiniteyield.BackgroundColor3 = Color3.fromRGB(153, 37, 255)
+infiniteyield.Position = UDim2.new(0.51815182, 0, 0.519402981, 0)
+infiniteyield.Size = UDim2.new(0, 283, 0, 50)
+infiniteyield.Font = Enum.Font.GothamBold
+infiniteyield.Text = "IY"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextSize = 40.000
+infiniteyield.MouseButton1Down:connect (function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+silentaim.Name = "silent aim"
+silentaim.Parent = main
+silentaim.BackgroundColor3 = Color3.fromRGB(153, 37, 255)
+silentaim.Position = UDim2.new(0.51815182, 0, 0.26268661, 0)
+silentaim.Size = UDim2.new(0, 283, 0, 50)
+silentaim.Font = Enum.Font.GothamBold
+silentaim.Text = "AIMLOCK"
+silentaim.TextColor3 = Color3.fromRGB(0, 0, 0)
+silentaim.TextSize = 40.000
+silentaim.MouseButton1Down:connect (function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/manipulatedyou/riley/main/aimlock"))()
+    end)
